@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0a7fabdeeaef94bb5594fcf68b9a8f, type: 3}
+  m_Name: Test Turret
+  m_EditorClassIdentifier: 
+  _iD: 8
+  _icon: {fileID: 21300000, guid: 35f23c48db908de47a926c4bb1831818, type: 3}
+  _weight: 0
+  _gameSprite: {fileID: -3628833468902240626, guid: 5d969f71e289a404ebd0995b2750f4e3,
+    type: 3}
+  _createEmpty: 0
+  _maxHealth: 100
+  _consumedTurretEnergy: 0
+  _hitboxSize: {x: 0.3, y: 0.3, z: 1}
+  _spriteScale: {x: 1, y: 1, z: 1}
+  _spriteRotation: {x: 90, y: 0, z: 0}
+  _turretPosition: {x: 0, y: 0.03, z: 0}
+  _bulletSpawnPosition: {x: 0, y: 0, z: 1}
+  _weaponName: Turret
+  _weaponDescription: pewPew
+  _magazineCapacity: 10
+  _magazineCount: 5
+  _reloadSpeed: 2
+  _bulletPerSecond: 20
+  _fireSpread: 0
+  WeaponVaribles:
+    IsReady: 1
+    ReloadTimer: 0
+    IsReloading: 0
+    CurrentBulletCount: 0
+    CurrentMagazineCount: 0
+    SpreadFactor: 0
+    FireRate: 0
